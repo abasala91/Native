@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Native",
-    "slug": "Native",
+    "name": "Tic Tac Toe",
+    "slug": "tic-tac-toe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#25292e"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbeb44ae-cd1d-440c-a9c7-0ac1001a0244"
+      }
+    },
+    "owner": "ahmedouf",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bbeb44ae-cd1d-440c-a9c7-0ac1001a0244"
     }
   }
 }
